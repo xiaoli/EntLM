@@ -15,7 +15,7 @@ echo "---------------------------------------Training with file ${FILE_NAME}, ro
 echo ""
 
 
-CUDA_VISIBLE_DEVICES=1 python train_transformer.py --train_file $FILE_NAME \
+CUDA_VISIBLE_DEVICES=0 python train_transformer.py --train_file $FILE_NAME \
                                                    --validation_file dataset/conll/test.json \
                                                    --model_name_or_path pretrained/bert-base-cased \
                                                    --per_device_train_batch_size 4 \

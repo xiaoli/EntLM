@@ -9,8 +9,7 @@ To install the required packages by following commands:
 ```
 conda create --name EntLM python=3.6.5
 ```
-conda install pytorch==1.6.0 torchvision==0.7.0 cudatoolkit=10.2 -c pytorch
-
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 ```
 $ pip install -r requirements.txt
 ```
