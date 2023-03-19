@@ -6,9 +6,13 @@ The source codes for EntLM.
 Cuda 10.1, python 3.6.5
 
 To install the required packages by following commands:
+```
+conda create --name EntLM python=3.6.5
+```
+conda install pytorch==1.6.0 torchvision==0.7.0 cudatoolkit=10.2 -c pytorch
 
 ```
-$ pip3 install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 
 To download the pretrained bert-base-cased model:
